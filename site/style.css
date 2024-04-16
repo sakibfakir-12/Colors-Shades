@@ -179,3 +179,23 @@ footer {
             bottom: 0;
             width: 30%;
         }
+
+
+        /*CSS FOR SMALL SCREEN*/
+
+
+/* Media query for screens up to 600px wide (typical mobile devices) */
+@media only screen and (max-width: 600px) {
+    /* Adjust circle size for mobile devices */
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .navbar {
+        font-size: 14px;
+    }
+}
+
+
+
