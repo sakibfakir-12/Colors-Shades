@@ -33,6 +33,8 @@ body, html {
   }
 }
 
+
+
 .circle {
   width: 100px;
   height: 100px;
@@ -45,129 +47,57 @@ body, html {
   background-color: red;
   left: 50px;
   bottom: 15%;
-  animation: moveCircle1 8s linear infinite;
+  /*animation: moveCircle1 8s linear infinite;*/
 }
 
 #circle2 {
   background-color: yellow;
   left: 200px;
   bottom: 55%;
-  animation: moveCircle2 9s linear infinite;
+  /*animation: moveCircle2 9s linear infinite;*/
 }
 
 #circle3 {
   background-color: blue;
   left: 450px;
   bottom: 35%;
-  animation: moveCircle3 8.5s linear infinite;
+  /*animation: moveCircle3 8.5s linear infinite;*/
 }
 
 #circle4 {
   background-color: orange;
   left: 600px;
   bottom: 5%;
-  animation: moveCircle4 8.7s linear infinite;
+  /*animation: moveCircle4 8.7s linear infinite;*/
 }
 
 #circle5 {
   background-color: green;
   left: 800px;
   bottom: 67%;
-  animation: moveCircle5 9.8s linear infinite;
+  /*animation: moveCircle5 9.8s linear infinite;*/
 }
 
 #circle6 {
   background-color: purple;
   left: 1000px;
   bottom: 45%;
-  animation: moveCircle6 9s linear infinite;
+  /*animation: moveCircle6 9s linear infinite;*/
 }
 
 #circle7 {
   background-color: black;
   left: 1200px;
   bottom: 78%;
-  animation: moveCircle7 9.5s linear infinite;
+  /*animation: moveCircle7 9.5s linear infinite;*/
 }
 
 #circle8 {
   background-color: cyan;
   left: 1400px;
   bottom: 30%;
-  animation: moveCircle8 9.2s linear infinite;
+  /*animation: moveCircle8 9.2s linear infinite;*/
 }
-
-@keyframes moveCircle1 {
-  0% {
-    transform: translateY(-550%);
-  }
-  100% {
-    transform: translateY(210px);
-  }
-}
-
-@keyframes moveCircle2 {
-  0% {
-    transform: translateY(-300%);
-  }
-  100% {
-    transform: translateY(500px);
-  }
-}
-
-@keyframes moveCircle3 {
-  0% {
-    transform: translateY(-450%);
-  }
-  100% {
-    transform: translateY(370px);
-  }
-}
-
-@keyframes moveCircle4 {
-  0% {
-    transform: translateY(-700%);
-  }
-  100% {
-    transform: translateY(150px);
-  }
-}
-
-@keyframes moveCircle5 {
-  0% {
-    transform: translateY(-200%);
-  }
-  100% {
-    transform: translateY(600px);
-  }
-}
-
-@keyframes moveCircle6 {
-  0% {
-    transform: translateY(-400%);
-  }
-  100% {
-    transform: translateY(450px);
-  }
-}
-
-@keyframes moveCircle7 {
-  0% {
-    transform: translateY(-150%);
-  }
-  100% {
-    transform: translateY(650px);
-  }
-}
-
-@keyframes moveCircle8 {
-  0% {
-    transform: translateY(-450%);
-  }
-  100% {
-    transform: translateY(310px);
-  }
-}          
 
 
 
@@ -188,13 +118,62 @@ footer {
 @media only screen and (max-width: 600px) {
     /* Adjust circle size for mobile devices */
     .circle {
-        width: 80px;
-        height: 80px;
+        width: 30px;
+        height: 30px;
     }
 
-    .navbar {
-        font-size: 14px;
+    .navbar-content {
+        font-size: 30px;
     }
+
+    #circle1{
+      left: 20px;
+      bottom: 15%;
+    }
+
+    #circle2{
+      left: 80px;
+      bottom: 55%;
+    }
+
+    #circle3{
+      left: 160px;
+      bottom: 35%;
+    }
+
+    #circle4{
+      left: 240px;
+      bottom: 5%;
+    }
+
+    #circle5{
+      left: 300px;
+      bottom: 67%;
+    }
+
+    #circle6{
+      left: 380px;
+      bottom: 45%;
+    }
+
+    #circle7{
+      left: 445px;
+      bottom: 78%;
+    }
+
+    #circle8{
+      left: 500px;
+      bottom: 30%;
+    }
+
+    footer {
+            color:black;
+            text-align: center;
+            font-size: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 70%;
+        }
 }
 
 

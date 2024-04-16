@@ -1,46 +1,9 @@
+function playSound() {
+            var audio = document.getElementById("clickSound");
+            audio.play();
+        }
 
-// Esse sirf circle ka backgroung color change hoga 
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   const circles = document.querySelectorAll('.circle');
-
-//   circles.forEach(circle => {
-//     circle.addEventListener('click', function() {
-//       circle.style.backgroundColor = getRandomColor();
-//     });
-//   });
-
-//   function getRandomColor() {
-//     const letters = '0123456789ABCDEF';
-//     let color = '#';
-//     for (let i = 0; i < 6; i++) {
-//       color += letters[Math.floor(Math.random() * 16)];
-//     }
-//     return color;
-//   }
-// });
-// ............................................................
-
-// Esse randome website ka back change hoga..
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   const circles = document.querySelectorAll('.circle');
-
-//   circles.forEach(circle => {
-//     circle.addEventListener('click', function() {
-//       document.body.style.backgroundColor = getRandomColor();
-//     });
-//   });
-
-//   function getRandomColor() {
-//     const letters = '0123456789ABCDEF';
-//     let color = '#';
-//     for (let i = 0; i < 6; i++) {
-//       color += letters[Math.floor(Math.random() * 16)];
-//     }
-//     return color;
-//   }
-// });
+// ...................................................        
 // ..................................................
 document.addEventListener("DOMContentLoaded", function() {
   const circles = document.querySelectorAll('.circle');
