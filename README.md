@@ -1,2 +1,2 @@
-# Coursera-assignment
-Coursera Assignment 
+# Colors-Shades
+it's basically give shade of colors
